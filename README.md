@@ -19,5 +19,5 @@
 #### 4.编写实验报告。
 
 ## 三、程序流程图
-#### 
+#### ![i](https://github.com/WangFan-WFAA/Experiment-3/blob/main/java%E5%AE%9E%E9%AA%8C3%E6%B5%81%E7%A8%8B%E5%9B%BE.jpg)
 
