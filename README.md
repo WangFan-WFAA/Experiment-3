@@ -20,4 +20,40 @@
 
 ## 三、程序流程图
 #### ![i](https://github.com/WangFan-WFAA/Experiment-3/blob/main/E3%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
+## 三、程序流程图
+#### ![i](https://github.com/WangFan-WFAA/Experiment-3/blob/main/E3%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
+## 
+## 四、核心代码
+#### 下位核心代码展示，来自 maintype test。主要为首先利用上述导入的 java.util 包下的 Scanner 类进行实例化，再利用switch语句循环将选所选的课程及教师信息体现，若学生选择超出所设定的范围，则会弹出“选课失败”的字样。
+####  Scanner input = new Scanner(System.in);//实例化类
+#### 		 int i = input.nextInt();//输入一个整数
+#### 		 switch(i) {
+#### 		 case 1:
+#### 			 course = course1;
+#### 			 break;
+#### 		 case 2:
+#### 			 course = course2;
+#### 			 break;
+#### 		 case 3:
+#### 			 course = course3;
+#### 			 break;
+#### 		 case 4:
+#### 			 course = course4;
+#### 			 break;
+#### 		 default:
+#### 			 System.out.println("选课失败");
+#### 	}
+## 
+## 五、实验过程
+#### 1.将people设为父类，则Student和Teacher为子类，再利用extents将他们联系。
+#### 2.输入及完善老师Teacher、学生Student及课程Course的信息。
+#### 3.利用super()，实例化子类Student和Teacher。
+#### 4.利用在object根类的toString（）方法在Teacher、Student及Course的信息输出。
+#### 5.利用Scanner对用户的输入进行获取，再用if和else语句对于用户输入的值进行判断。如果用户选择退掉所选课程，那么将显示该学生信息及“退课成功”字样；若用户选择不退此课程，则显示“选课结束”的字样。
+#### 6.对所有的信息进行输出打印。
+##
+## 六、实验结果
+#### 
+#### 
+#### 
 
